@@ -1,0 +1,10 @@
+torchbiggraph_import_from_tsv --lhs-col=0 --rel-col=1 --rhs-col=2 new_config.py rel9811/train.txt rel9811/valid.txt rel9811/test.txt
+
+
+torchbiggraph_train new_config.py -p edge_paths=rel9811/train_p
+
+
+torchbiggraph_eval new_config.py -p edge_paths=rel9811/test_p -p relations.0.all_negs=true -p num_uniform_negs=0
+
+
+torchbiggraph_export_to_tsv new_config.py --entities-output entity_embeddings.tsv --relation-types-output relation_types_parameters.tsv
