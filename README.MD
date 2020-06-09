@@ -19,9 +19,9 @@ You should download academic social network data from [here](https://www.aminer.
   - r_citation.csv: relation between papers
   - r_coauthor.csv: relation between authors
   
-Then Neo4j is used to display these csv files.
+Then Neo4j is used to visualize these csv files.
 
-Import to Neo4j:
+## Import to Neo4j
 
 ```CYPHER
 USING PERIODIC COMMIT 5000
