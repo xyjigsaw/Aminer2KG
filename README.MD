@@ -2,6 +2,8 @@
 
 You should download academic social network data from [Aminer](https://www.aminer.cn/aminernetwork) and replace variable 'f' in each .py file accordingly.
 
+[Chinese README](https://www.omegaxyz.com/2020/07/12/aminer-academic-social-network/)
+
 
 ## Triples
 - author2csv.py includes
