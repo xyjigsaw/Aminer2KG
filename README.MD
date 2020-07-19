@@ -1,4 +1,6 @@
-# Aminer Data 2 Knowledge Graph Triples and Embedding
+# Aminer2KG
+
+Aminer Data 2 Knowledge Graph Triples and Embedding
 
 You should download academic social network data from [Aminer](https://www.aminer.cn/aminernetwork) and replace variable 'f' in each .py file accordingly.
 
