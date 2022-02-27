@@ -7,7 +7,7 @@ You should download academic social network data from [Aminer](https://www.amine
 [Chinese README](https://www.omegaxyz.com/2020/07/12/aminer-academic-social-network/)
 
 
-## Triples
+## Triples Generation from Networks
 - author2csv.py includes
   - e_author.csv: author entity
   - e_affiliation: affiliation entity
